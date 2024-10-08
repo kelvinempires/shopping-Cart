@@ -1,0 +1,210 @@
+/* i import this font from google-montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+.main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+}
+.mainDIv-left {
+  width: 200px;
+}
+.mainDiv-right {
+  width: 400px;
+  text-spacing-trim: 100px;
+}
+.p1 {
+  text-align: center;
+  background-color: rgb(0, 102, 255);
+  color: white;
+  width: 100px;
+  font-size: x-small;
+}
+.pL {
+  font-weight: 400;
+  font-size: large;
+}
+.div-1 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+  padding: 0 0 10px 0;
+}
+#span1 {
+  font-weight: bolder;
+}
+#span2 {
+  font-size: x-small;
+  text-decoration: line-through;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.411);
+}
+.span3 {
+  font-size: xx-small;
+  font-weight: 600;
+  background-color: rgba(255, 140, 0, 0.078);
+  color: darkorange;
+  padding: 1px 3px;
+}
+
+.pXSmall {
+  font-size: xx-small;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.445);
+}
+.pp {
+  font-size: small;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.765);
+}
+.h3 {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.806);
+  font-weight: 500;
+}
+.love-and-oneFitForAll{
+ display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.div2 {
+ 
+  color: rgba(255, 140, 0, 0.767);
+  border: 1px solid rgba(255, 140, 0, 0.705);
+  padding: 3px 3px;
+  font-size: small;
+  width: fit-content;
+  margin: 5px 0px;
+}
+#addToCart {
+  background-color: darkorange;
+  color: whitesmoke;
+  font-size: large;
+  padding: 10px;
+  border: 1px solid darkorange;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  gap: 130px;
+  cursor: pointer;
+}
+
+#addToCart:hover,
+#minusBtn:hover,
+#addBtn:hover {
+  background-color:rgba(255, 140, 0, 0.831);
+}
+.btn {
+  display: none;
+  font-size: large;
+  border-radius: 5px;
+  /* display: flex; */
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  padding-left: 170px;
+}
+#love1{
+  font-size: xx-large;
+  color: rgba(255, 140, 0, 0.196);
+  cursor: pointer;
+
+}
+#minusBtn {
+  border: none;
+  background-color: rgba(255, 140, 0, 0.235);
+  color: #fff;
+  font-size: xx-large;
+  font-weight: bolder;
+  border-radius: 5px;
+  width: 50px;
+  padding: 0px 2px;
+  cursor: pointer;
+}
+#addBtn {
+  border: none;
+  background-color: rgba(255, 140, 0, 0.635);
+  font-size: xx-large;
+  font-weight: bolder;
+  border-radius: 5px;
+  width: 50px;
+  padding: 0px 2px;
+  cursor: pointer;
+}
+.slider-wrapper {
+  overflow: hidden;
+  overflow-x: visible;
+  max-width: 90px;
+  margin: 10px 70px;
+}
+.mainDIv-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+#bigImage {
+  background-color: aquamarine;
+  height: 200px;
+  margin: 10px 10px 0px 5px;
+  width: 200px;
+}
+.card-list .card-item {
+  margin: 0%;
+  padding: 0%;
+}
+
+.card-list .card-item,
+#user-image-1,
+#user-image-2,
+#user-image-3,
+#user-image-4,
+#user-image-5,
+#user-image-6,
+#user-image-7 {
+  height: 40px;
+  width: 30px;
+  object-fit: cover;
+  transition: all ease-in-out 0.5s;
+  padding-bottom: 20px;
+}
+.card-list .card-item #user-image-1:hover,
+#user-image-2:hover,
+#user-image-3:hover,
+#user-image-4:hover,
+#user-image-5:hover,
+#user-image-6:hover,
+#user-image-7:hover {
+  width: 55px;
+  height: 55px;
+}
+.slider-wrapper .swiper-pagination-bullet {
+  background-color: darkorange;
+  color: red;
+  height: 12px;
+  width: 12px;
+}
+.slider-wrapper .swiper-slide-button {
+  color: white;
+  transition: 0.3s ease;
+  font-weight: 100;
+}
+.slider-wrapper .swiper-slide-button:hover {
+  color: darkorange;
+}
